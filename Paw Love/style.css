@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html { 
+    font-size: 52.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url("img/paw-love.jpg") no-repeat center center fixed;
+    background-size: cover;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 400;
+    overflow-x: hidden;
+    color: #0e0a07;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+ font-weight: 700;
+ color: #0e0d0c;
+ letter-spacing: -0.7px;
+}
+
+.heading-primary {
+    font-size: 5.2rem;
+    line-height: 1.05;
+    margin-bottom: 3.2rem;
+   }
+   
+   
+a{
+    text-decoration: none;
+}
+   
+
+/* ****************** */ 
+/* Logo */ 
+/* ****************** */ 
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+}
+   
+.logo {
+    height: 2.4rem;
+    font-size: 4rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(236, 230, 223, 0.5);
+    font-family: cursive;
+}
+   
+   /* ****************** */ 
+   /* Navigation */ 
+   /* ****************** */ 
+   
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 5.8rem;
+    margin-top: 45px;
+}
+   
+.main-nav-link {
+    display: inline-block;
+    text-decoration: none;
+    color:  #d8d2cacc;
+    font-weight: 200;
+    font-size: 2.2rem;
+}
+   
+.main-nav-link.nav-cta {
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #000000cc;
+}
+
+/* ****************** */ 
+/* Hero section */ 
+/* ****************** */ 
+.section-hero {
+    padding: 15rem 0 9.6rem;
+}
+   
+.hero {
+    max-width: 75rem;
+    padding: 0 9.6rem;
+    align-items: left;
+}
+   
+.hero-description {
+    font-size: 2.5rem;
+    line-height: 1.6;
+    margin: 4.8rem 0;
+}
+
+
+/* SERVICE PAGE */
+
+.body1{
+    background: #854e0f;
+    background-image: none;
+}
+
+.service-header{
+    color: rgb(48, 30, 6);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.p-header{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: -1rem;
+}
+
+.service-wrapper1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-left: 200px;
+    margin-top: 2rem;
+}
+
+.service-wrapper1 .card{
+    /* position: relative; */
+    height: 100%;
+}
+
+.card img{
+    width: 350px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.card h3{
+    font-size: 20px;
+    color: #0e0a07;
+    font-weight: 900;
+}
+
+.card p{
+    color: rgb(34, 11, 3);
+    font-size: 20px;
+}
